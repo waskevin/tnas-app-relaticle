@@ -1,0 +1,12 @@
+{
+  "number": 25,
+  "name": "Relaticle",
+  "dual_arch": true,
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "evidence": "runtime_probe",
+  "precheck_status": "startup_failed",
+  "submission_status": "not_submitted"
+}
