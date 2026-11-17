@@ -1,0 +1,21 @@
+{
+  "number": 25,
+  "name": "Relaticle",
+  "source": "https://relaticle.com",
+  "docker_hub": "manukminasyan/relaticle",
+  "tag": "b303d72",
+  "repository": "https://github.com/waskevin/tnas-app-relaticle",
+  "dual_arch": true,
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "screenshot_path": "precheck-screenshots/relaticle/x86_64/run.png",
+  "screenshot_status": "pending",
+  "developer_name": "管浩良",
+  "developer_email": "k.kuan@qq.com",
+  "submission_status": "not_submitted",
+  "scheduled_publish": "20:00",
+  "runtime_status": "startup_failed",
+  "runtime_note": "app-1  |   SQLSTATE[HY000]: General error: 1 near \"CONSTRAINT\": syntax error (Connection: sqlite, Database: /var/www/html/database/database.sqlite, SQL: ALTER TABLE ai_credit_balances ADD CONSTRAINT ai_credit_balances_credits_nonneg CHECK (credits_remaining >= 0))"
+}
